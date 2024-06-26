@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      sizes="180x180"
+      href="https://img.freepik.com/premium-vector/gold-tiger-black-background-vector-illustration-symbol-2022-new-year-greeting-card_459850-27.jpg"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="https://img.freepik.com/premium-vector/gold-tiger-black-background-vector-illustration-symbol-2022-new-year-greeting-card_459850-27.jpg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Karl Fernandes | Web Developer</title>
+  </head>
+
+  <body>
+    <nav style="background-color:#040309">
+      <h1>Karl Fernandes</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link gradient-text">About</a></li>
+        <li><a href="#skills" class="nav-link gradient-text">Skills</a></li>
+        <li><a href="#projects" class="nav-link gradient-text">Projects</a></li>
+        <li><a href="#contact" class="nav-link gradient-text">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <div class="container">
+      <h1>Karl Fernandes- Computer Science Student</h1>
+    </div>
+    
+    
+    <section class="hero" id="about">
+        <img
+          src="assets/images/me.jpg"
+          alt="Karl Fernandes"
+          loading="lazy"
+          class="hero-img"
+        />
+      <div class="bio animate__animated animate__shakeX cooltext">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My name is Karl Fernandes. I'm a student at the University
+          of Bristol who is currently pursuing a degree in Computer Science. 
+          I am keen to gain experience in the technology industry and 
+          apply my knowledge to solve problems inside of this industry. Please contact
+          me below if you have any queries. If you want to find out more about me then
+          be sure to add my LinkedIn!
+        </p>
+      </div>
+    </section>
+      
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate_ ">
+          <img
+            src="assets/icons/html-5.svg"
+            alt="HTML"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css3.svg"
+            alt="CSS"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/javascript.svg"
+            alt="JavaScript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/Python.svg"
+            alt="Python"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/java.svg"
+            alt="Java"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/git.svg"
+            alt="Git"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+
+    </section>
+
+    <section class="project" id="projects">
+      <h2 class="projects-title cooltext"> Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/scotlandyard.png"
+            alt="scotland-yard"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title cooltext">Scotland Yard Clone</h3>
+          <p class="project-details cooltext">
+            In this project I created a clone of the popular boardgame Scotland Yard using Java. This involved using complex ideas such 
+            as design patterns and planning ahead in order to predict what ideas I and my partner would need to be familiar with. On top of this,
+            we also created a mrXAI which used Dijsktra's shortest algorithm in order to make the best move by considering the location of the closest 
+            detective.  
+            <br><br><br>
+          </p>
+        </div>  
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/todo.png"
+            alt="todo-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title cooltext">To-Do Application</h3>
+          <p class="project-details cooltext">
+            In this project I created a To-Do App using React.js, JavaScript, HTML and CSS. I implemented functionalities such as adding, deleting and updating tasks as well 
+            as allowing these tasks to be checked using a tickbox. These functionalities persisted during changes, such as when the page was reloaded, by storing the 
+            data using localStorage so that these changes would not be lost when the page was refreshed. 
+          </p>
+          <a href="https://todoapplication-krf0821.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+        </div>    
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/image-gallery.png"
+              alt="image-gallery"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title cooltext">Image Gallery</h3>
+            <p class="project-details cooltext">
+              I designed this image gallery to collect and display cool pictures on a website. My goal is to create a shared platform that addresses the 
+              common issue faced by friend groups when sharing event photos. Instead of everyone having to send pictures individually, 
+              you can simply upload them to this platform. Everyone with access can then easily download all the photos taken.
+              <br><br><br><br><br><br><br><br><br><br><br>
+            </p>
+            <a href="https://krf0821-image-gallery.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+          </div>     
+        </div>     
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/website.PNG"
+            alt="myfirstwebsite"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title cooltext">Website Portfolio</h3>
+          <p class="project-details cooltext">
+            Created this website to showcase my skills and give a brief description about myself!  
+            <br><br><br><br><br><br><br><br><br><br><br>
+          </p>
+          <a href="https://main--neon-florentine-0e520e.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+        </div>     
+      </div>
+    </section>
+      
+
+    <section class="contact" id="contact">
+      <h2 class="cooltext">Get In Touch With Me</h2>
+      <div class="contact-form-container cooltext">
+        <div class="contact-form cooltext">
+          <form action="https://formspree.io/f/mayrrqdq" method="POST">
+            <div class="form-control">
+              <label for="name" class="cooltext">Name</label>
+              <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field cooltext"
+              required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email" class="cooltext">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field cooltext"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message" class="cooltext">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field cooltext"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn cooltext"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+        
+
+    
+    <div class="socials">
+      <a href="https://www.instagram.com/karl_fernandes_/" target="_blank"
+        ><img
+          src="assets/icons/instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/karl-fernandes/" target="_blank"
+        ><img
+          src="assets/icons/linkedin.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/krf0821" target="_blank"
+        ><img src="assets/icons/github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <footer class="footer cooltext">
+      &copy; Thank you for visiting my page!
+  </footer>
+    
+
+
+  <i class="scroll-up" id="scroll-up"> 
+         <img
+          src="assets/icons/uparrow.gif"
+          class="socicon up-arrow"
+          alt="scroll-up"
+          />
+  </i>
+
+ 
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
